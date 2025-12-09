@@ -47,7 +47,7 @@ kind: ClusterRoleBinding
 metadata:
   name: expense-cluster-reader
 subjects:
-- kind: user
+- kind: User
   name: Gopichand # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
